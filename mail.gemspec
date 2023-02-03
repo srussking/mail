@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.5"
 
   s.add_dependency('mini_mime', '>= 0.1.1')
-  s.add_dependency('uri')
+  s.add_dependency('uri', '0.12.0')
   s.add_dependency('net-http')
   s.add_dependency('net-smtp')
   s.add_dependency('net-imap')
